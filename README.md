@@ -29,7 +29,7 @@ emojisOrender = set_Nav(emojis_list, streamlit_cloud_app=True)
 emojisOrender.show_me_the_icons_Render()
 # When loading app from some other cloud deploy container
 append_CDN_to = """
-                window.top.document.querySelectorAll("iframe[title='streamlitApp']")[0].contentDocument.head
+                window.top.document.querySelectorAll("iframe[include-selector-here]")[0].contentDocument.head
                 """
 emojisOrender = set_Nav(emojis_list, my_custom_head_CDN_selector=True, append_CDN_to=append_CDN_to)
 emojisOrender.show_me_the_icons_Render()
