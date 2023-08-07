@@ -13,6 +13,14 @@ from custom_sidebar_icons import Set_Nav_Emojis as set_Nav
 
 # Can have a look at source code and add support for more
 
+# Load data
+emojis_list = [
+    {"iconLibrary":"remix_icon", "pageT":"two", "iconName":"ri-verified-badge-fill", "emojiObject":{}, "style":"", "elementID":"",},
+    {"iconLibrary":"icon_8", "pageT":"init", "iconName":"settings", "emojiObject":{'src':"https://img.icons8.com/fluency/48/smiling.png", 'height':'50', 'width':'50', 'alt':'smiling'}, "style":"", "elementID":"", },
+    {"iconLibrary":"tabler_icons", "pageT":"one", "iconName":"ti ti-adjustments-pin", "emojiObject":{}, "style":"", "elementID":"",},
+
+]
+
 # When loading from local file or from html without iframe or some container
 emojisOrender = set_Nav(emojis_list)
 emojisOrender.show_me_the_icons_Render()
